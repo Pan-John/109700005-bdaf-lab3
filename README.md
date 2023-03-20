@@ -1,16 +1,17 @@
 # 109700005-bdaf-lab3
 
-## I will update later b4 the class!
-
-
+## I will update later before the class!
 ```
-npm init -y
+npm init
 npm install --save-dev hardhat
+npm install --save @nomiclabs/hardhat-etherscan
+npm install --save-dev @nomicfoundation/hardhat-toolbox/////
+npm install --save-dev @openzeppelin/contracts
+npm install --save dotenv
 npx hardhat
 ```
-select `Create an empty hardhat.config.js`
+select 'Create a JavaScript project'
 ```
-$ npx hardhat
 888    888                      888 888               888
 888    888                      888 888               888
 888    888                      888 888               888
@@ -23,17 +24,8 @@ $ npx hardhat
 👷 Welcome to Hardhat v2.9.9 👷‍
 
 ? What do you want to do? …
-  Create a JavaScript project
+❯ Create a JavaScript project
   Create a TypeScript project
-❯ Create an empty hardhat.config.js
+  Create an empty hardhat.config.js
   Quit
-```
-than install recommand plugins @nomicfoundation/hardhat-toolbox
-```
-npm install --save-dev @nomicfoundation/hardhat-toolbox
-```
-
-also install @openzeppelin/contracts
-```
-npm install @openzeppelin/contracts 
 ```
