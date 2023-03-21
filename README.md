@@ -4,36 +4,36 @@ This is a simple ERC20 bank that can deposit and withdraw ERC20 token.
 
 ## Contract link
 
-* The PTC(ERC20) token contract was deployed [here](https://sepolia.etherscan.io/token/0xa32f82D9549ccA5fcAa8A14F882033a11e726694)
-* The bank contract was deployed [here](https://sepolia.etherscan.io/address/0x4F584C0B7c8ACAea13354109d1fE4476AAbe3676#writeContract)
+* The PTC(ERC20) token contract was deployed [here](https://sepolia.etherscan.io/address/0x3F107Abd46156487E041195D55e293A79f4B62fD)
+* The bank contract was deployed [here](https://sepolia.etherscan.io/address/0x3F107Abd46156487E041195D55e293A79f4B62fD)
 
 ## Interact with the contract on sepolia testnet
 First, go to PTC token contract, and connect to your wallet.
 ### Use `mint` function to get some PTC token.
-Input your wallet address and the amount you want to mint. Also import the token address to your wallet.
+Input the amount you want to mint. Also, import the token address to your wallet.
 
-<img width="743" alt="截圖 2023-03-21 下午4 46 04" src="https://user-images.githubusercontent.com/125814787/226556221-e1ca162c-b3e4-467d-8906-dcc3ae65bd66.png">
+<img width="743" alt="截圖 2023-03-21 下午11 45 14" src="https://user-images.githubusercontent.com/125814787/226662406-a9458b59-52c0-4e61-b06c-8c028125135d.png">
 
 ### Use `approve` function to approve some allowance to bank contract.
 Input bank contract address and the amount you want to approve.
 
-<img width="743" alt="截圖 2023-03-21 下午4 46 39" src="https://user-images.githubusercontent.com/125814787/226556235-a57b03bd-f6d8-4926-abe8-bf2308f3c817.png">
+<img width="743" alt="截圖 2023-03-21 下午11 54 23" src="https://user-images.githubusercontent.com/125814787/226665765-ce9dc639-cbba-42f3-a8a6-6d14efcb0e37.png">
 
 Then go to bank contract.
 ### Use `deposit` functiom to deposit money
 Input the PTC or any ERC20 token contract address and the amount.
 
-<img width="750" alt="截圖 2023-03-21 下午5 17 39" src="https://user-images.githubusercontent.com/125814787/226563131-0bae0d67-f687-4124-9dac-cad38f68d32f.png">
+<img width="743" alt="截圖 2023-03-21 下午11 51 53" src="https://user-images.githubusercontent.com/125814787/226665066-a9ab61bd-1b96-4658-af97-3e2a07f405e2.png">
 
 ### Use `withdraw` function to withdraw money
 Same as `deposit`, input the PTC or any ERC20 token contract address and the amount.
 
-<img width="750" alt="截圖 2023-03-21 下午5 17 59" src="https://user-images.githubusercontent.com/125814787/226563124-771928ce-8eb8-4c5b-8b66-dcd58cf80a6a.png">
+<img width="743" alt="截圖 2023-03-21 下午11 53 44" src="https://user-images.githubusercontent.com/125814787/226665577-3d97bb55-ed25-4266-88f5-a565ce729904.png">
 
 ### Check the balance at `_balances` in Read Contract.
 Input your wallet address and the ERC20 token contract address you want to check.
 
-<img width="757" alt="截圖 2023-03-21 下午5 15 50" src="https://user-images.githubusercontent.com/125814787/226562654-49b66fc5-c1b1-4a0a-98d8-4fe0caec5478.png">
+<img width="743" alt="截圖 2023-03-21 下午11 52 29" src="https://user-images.githubusercontent.com/125814787/226665219-0cd33431-e470-4658-a85d-ed02707347ab.png">
 
 ## Installation
 Make a new directory, do npm init, then install hardhat and plugins. Start the project with `npx hardhat`
