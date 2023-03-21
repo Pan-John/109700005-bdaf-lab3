@@ -1,0 +1,3 @@
+TESTNET_API_KEY = "Your testnet api key"
+MTMS_PRIVATE_KEY = "Your metamask private key"
+ETHERSCAN_API_KEY = "Your etherscan api key"
