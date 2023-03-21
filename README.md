@@ -112,7 +112,5 @@ The whole process should be like this:
 <img width="906" alt="截圖 2023-03-21 下午3 38 12" src="https://user-images.githubusercontent.com/125814787/226543224-9980fa4e-da10-4727-87cf-f1e5e6f3b178.png">
 
 ## reference
-(Will Upload later)
-* [hardhat]()
-* [github]()
-* [hackmd]()
+* [Hardhat's tutorial for beginners](https://hardhat.org/tutorial)
+* [Hardhat 教學：從入門 Solidity 開發者到專業](https://hackmd.io/@JasonFinley/HJEscpIc5/https%3A%2F%2Fhackmd.io%2F%40SVMGKOLoRDqczI3S4lKC9Q%2Frk4w5kKu9)
