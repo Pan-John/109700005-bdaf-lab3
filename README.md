@@ -43,7 +43,7 @@ cd erc20bank
 npm init -y
 npm install --save-dev hardhat
 npm install --save @nomiclabs/hardhat-etherscan
-npm install --save-dev @nomicfoundation/hardhat-toolbox/////
+npm install --save-dev @nomicfoundation/hardhat-toolbox
 npm install --save-dev @openzeppelin/contracts
 npm install --save dotenv
 npx hardhat
